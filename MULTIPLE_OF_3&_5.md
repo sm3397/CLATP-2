@@ -20,4 +20,8 @@ int main(){
         long sum3 = 3 * a * (a + 1) / 2;
         long sum5 = 5 * b * (b + 1) / 2;
         long sum15 = 15 * d * (d + 1) / 2;
-        long c = sum3 + sum5 - sum1
+        long c = sum3 + sum5 - sum15;
+        printf("%ld\n",c);
+    }
+    return 0;
+}
